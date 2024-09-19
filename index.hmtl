@@ -6,7 +6,7 @@
     <title>Samuel Chirosa McCarthy</title>
     <style>
         body {
-            font-family: American Typwriter, sans-serif;
+            font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
@@ -50,10 +50,24 @@
             border: 1px solid #ccc;
             border-top: none;
         }
+        .profile-pic {
+            display: block;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .tab-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <img src="/api/placeholder/200/200" alt="Samuel Chirosa McCarthy" class="profile-pic">
         <h1>Hey, I'm Samuel Chirosa McCarthy</h1>
 
         <div class="tab">
@@ -64,20 +78,24 @@
 
         <div id="About" class="tabcontent">
             <h2>About Me</h2>
+            <img src="/api/placeholder/600/400" alt="Judo Practice" class="tab-image">
             <p>I'm a judo athlete and business student in Granada. This is my first website which I will be updating as I go. This website is an online representation of who I really am and what I do. The best part about making a website is that everything you see is uploaded on my rules and I get to deliver my message the way I want.</p>
         </div>
 
         <div id="Values" class="tabcontent">
             <h2>My Values</h2>
+            <img src="/api/placeholder/600/400" alt="Hard Work and Discipline" class="tab-image">
             <p>I believe in hard work and discipline.</p>
         </div>
 
         <div id="Work" class="tabcontent">
             <h2>What I'm Working On</h2>
+            <img src="/api/placeholder/600/400" alt="Family Business" class="tab-image">
             <p>Since I'm a business student and I like putting my skills to work, I'm helping grow the family business.</p>
         </div>
 
         <h2>My Hobbies</h2>
+        <img src="/api/placeholder/600/400" alt="Travel and Sports" class="tab-image">
         <p>I love judo & sports in general, I compete for fun. Also, I love to travel and try new things.</p>
     </div>
 
